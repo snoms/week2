@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="week2mbp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,327 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ears" translatesAutoresizingMaskIntoConstraints="NO" id="sOL-PU-KVF">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="kUD-gK-3L6">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="10" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="EaU-Og-iXq">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="rLv-d6-pDk">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="99Y-87-rhJ">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mouth" translatesAutoresizingMaskIntoConstraints="NO" id="5B1-ze-FH6">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="Q6x-U9-2HM">
+                                <rect key="frame" x="72" y="83" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="hkU-FQ-3vc">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="VZp-84-VDc">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glasses" translatesAutoresizingMaskIntoConstraints="NO" id="TRB-1A-upz">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eyebrows" translatesAutoresizingMaskIntoConstraints="NO" id="QpM-n5-Hm7">
+                                <rect key="frame" x="72" y="86" width="180" height="230"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalCentering" alignment="bottom" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wj1-ab-QNK">
+                                <rect key="frame" x="20" y="15" width="560" height="580"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="2lk-OV-kp8">
+                                        <rect key="frame" x="218" y="0.0" width="125" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Potato Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SzJ-kN-7Nm">
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qVl-XC-oZZ">
+                                        <rect key="frame" x="150" y="349" width="261" height="17"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch parts of Mr. Potato Head on or off!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QT-Vd-u2R">
+                                                <rect key="frame" x="0.0" y="0.0" width="261" height="17"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" misplaced="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="LvW-Ox-rLs">
+                                        <rect key="frame" x="143" y="386" width="274" height="194"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qhe-t6-dxs">
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="194"/>
+                                                <subviews>
+                                                    <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h5I-Zi-5mq">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="MYZ-ao-cP6"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GiH-C3-d8P">
+                                                        <rect key="frame" x="0.0" y="40" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="41" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="Biy-FI-0GU"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQC-X7-Kal">
+                                                        <rect key="frame" x="0.0" y="81" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="82" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="cKu-If-cJX"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-LG-NvO">
+                                                        <rect key="frame" x="0.0" y="122" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="123" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="Va5-m0-7FR"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OaU-Hv-jKN">
+                                                        <rect key="frame" x="0.0" y="163" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="164" width="51" height="30"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="CQl-pT-ZTf"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MOf-pX-Dss">
+                                                <rect key="frame" x="59" y="0.0" width="61" height="194"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXf-n0-EJR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="27" height="34"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6u-4J-ess">
+                                                        <rect key="frame" x="0.0" y="54" width="40" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Eyes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiU-NN-DbG">
+                                                        <rect key="frame" x="0.0" y="94" width="37" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Arms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YED-uO-hV8">
+                                                        <rect key="frame" x="0.0" y="134" width="61" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="134" width="40" height="20"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TMt-AD-1q0">
+                                                        <rect key="frame" x="0.0" y="174" width="34" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <variation key="heightClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="59" y="0.0" width="47" height="194"/>
+                                                </variation>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DkO-eB-Bio">
+                                                <rect key="frame" x="130" y="0.0" width="49" height="194"/>
+                                                <subviews>
+                                                    <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VuT-Ud-ak1">
+                                                        <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="hZV-eP-kh2"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="06D-ff-sqg">
+                                                        <rect key="frame" x="0.0" y="40" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="40" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="dBw-hX-83a"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gDx-D8-GRt">
+                                                        <rect key="frame" x="0.0" y="81" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="81" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="aqe-dc-fLc"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="suE-qw-6yk">
+                                                        <rect key="frame" x="0.0" y="122" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="122" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="4Tk-Mj-1J8"/>
+                                                        </connections>
+                                                    </switch>
+                                                    <switch opaque="NO" tag="10" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Bv-5o-CGl">
+                                                        <rect key="frame" x="0.0" y="163" width="51" height="31"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="163" width="51" height="31"/>
+                                                        </variation>
+                                                        <connections>
+                                                            <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="valueChanged" id="sG8-7z-LvW"/>
+                                                        </connections>
+                                                    </switch>
+                                                </subviews>
+                                                <variation key="heightClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="116" y="0.0" width="49" height="194"/>
+                                                </variation>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4zi-z5-VaT">
+                                                <rect key="frame" x="189" y="0.0" width="85" height="194"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Glasses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-J6-O2x">
+                                                        <rect key="frame" x="0.0" y="0.0" width="40" height="34"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
+                                                            <rect key="frame" x="0.0" y="0.0" width="61" height="34"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Eyebrows" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkV-5M-U76">
+                                                        <rect key="frame" x="0.0" y="54" width="75" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="54" width="75" height="20"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Moustache" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEs-JY-H60">
+                                                        <rect key="frame" x="0.0" y="94" width="85" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="94" width="85" height="20"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Mouth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1a7-fF-vZ5">
+                                                        <rect key="frame" x="0.0" y="134" width="49" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="134" width="49" height="20"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Shoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Utf-ts-7IZ">
+                                                        <rect key="frame" x="0.0" y="174" width="48" height="20"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=compact" ambiguous="YES">
+                                                            <rect key="frame" x="0.0" y="174" width="48" height="20"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <variation key="heightClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="175" y="0.0" width="85" height="194"/>
+                                                </variation>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="194" id="Kvf-Vr-90x"/>
+                                            <constraint firstAttribute="width" constant="260" id="Mqk-jm-McZ"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Mqk-jm-McZ"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact" axis="horizontal">
+                                            <mask key="constraints">
+                                                <include reference="Mqk-jm-McZ"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="LvW-Ox-rLs" firstAttribute="top" relation="lessThanOrEqual" secondItem="qVl-XC-oZZ" secondAttribute="bottom" constant="20" id="jUE-w7-TKv">
+                                        <variation key="heightClass=compact" constant="100"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="heightClass=compact" axis="vertical"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wj1-ab-QNK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8iZ-WK-cWs"/>
+                            <constraint firstItem="Wj1-ab-QNK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XsO-zg-phh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wj1-ab-QNK" secondAttribute="bottom" id="YE3-HE-D71"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wj1-ab-QNK" secondAttribute="trailing" id="amA-Zj-Vg7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="images" destination="VZp-84-VDc" collectionClass="NSMutableArray" id="wjR-OG-qqG"/>
+                        <outletCollection property="images" destination="hkU-FQ-3vc" collectionClass="NSMutableArray" id="FHY-1B-A04"/>
+                        <outletCollection property="images" destination="99Y-87-rhJ" collectionClass="NSMutableArray" id="AyT-m3-a9W"/>
+                        <outletCollection property="images" destination="kUD-gK-3L6" collectionClass="NSMutableArray" id="N7z-ka-ejX"/>
+                        <outletCollection property="images" destination="sOL-PU-KVF" collectionClass="NSMutableArray" id="eJK-Fj-Ghu"/>
+                        <outletCollection property="images" destination="TRB-1A-upz" collectionClass="NSMutableArray" id="YVu-6V-91u"/>
+                        <outletCollection property="images" destination="QpM-n5-Hm7" collectionClass="NSMutableArray" id="Ecf-vb-2IT"/>
+                        <outletCollection property="images" destination="Q6x-U9-2HM" collectionClass="NSMutableArray" id="fit-Fc-Tpe"/>
+                        <outletCollection property="images" destination="5B1-ze-FH6" collectionClass="NSMutableArray" id="He3-90-Pus"/>
+                        <outletCollection property="images" destination="EaU-Og-iXq" collectionClass="NSMutableArray" id="spl-0m-umb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138" y="434"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arms" width="367" height="428"/>
+        <image name="body" width="367" height="428"/>
+        <image name="ears" width="367" height="428"/>
+        <image name="eyebrows" width="367" height="428"/>
+        <image name="eyes" width="367" height="428"/>
+        <image name="glasses" width="367" height="428"/>
+        <image name="hat" width="367" height="428"/>
+        <image name="mouth" width="367" height="428"/>
+        <image name="mustache" width="367" height="428"/>
+        <image name="nose" width="367" height="428"/>
+        <image name="shoes" width="367" height="428"/>
+    </resources>
 </document>

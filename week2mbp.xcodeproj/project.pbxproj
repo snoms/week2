@@ -286,6 +286,7 @@
 				CC290FF11C70B66C004F0702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
